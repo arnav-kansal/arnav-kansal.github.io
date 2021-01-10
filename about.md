@@ -13,26 +13,34 @@ tags: about
 
 <hr/>
 
-My complete resume can be found <a href="../pdfs/arnavkansalresume.pdf">here</a>.<br/> 
+I am a software engineer at Google. I am currently working on various parts of an Operating System being build and maintained at Google Cloud. Learn more about it <a href="https://cloud.google.com/container-optimized-os">here</a>. Previously I spent about 2 years at a startup (<a href="https://www.uber.com/us/en/freight/">Uber Freight</a> within Uber).<br/> <br/>
+I have done a couple of internships as a software engineer working at the relatively lower level of abstractions in software and that is where my interest lies. I like exploring under the hood.
+<br/> <br/>
+Interning at <a href="https://www.citadelsecurities.com/" target="_blank">Citadel Securities</a> in their Low Latency Technologies team I tasted modern C++(11/14/17) learning memory models, parallel programming, profiling applications/ functions at a very fine level of granularity using linux perf, and other hw level time stamp counters. It was over here that I was exposed to the high frequency trading world where people measure code in cpu cycles (nano seconds).<br/> <br/>
+I have also worked on the scheduler subsystem of the linux kernel (Operating System) for the Andriod smartphone Samsung C7 at <a href="https://www.samsung.com/in/aboutsamsung/home/" target="_blank">Samsung Electronics</a>.
 
 <hr />
-I am set to join <a href="https://www.uber.com/" target="_blank">Uber </a> in their freight team this summer as a Software Engineer. I have been very lucky to experience the frontier of cutting edge tech be it at Tech or Financial firms. Last summer during my Masters at NYU Courant, I interned at <a href="https://www.citadelsecurities.com/" target="_blank">Citadel Securities</a> in their Low Latency Technologies team. Prior to that during my undergrad, I have also had the opportunity to work at <a href="https://www.samsung.com/in/aboutsamsung/home/" target="_blank">Samsung Electronics</a> on the scheduler of the linux kernel for one of their Android smartphones (Samsung C7) as a summer intern.
 
-<hr />
-<p>I am a graduate student at <a href="https://cs.nyu.edu" target="_blank"> NYU,</a> <a href="https://cims.nyu.edu" target="_blank">Courant School of Mathematical Sciences</a>, where I am pursuing a Masters in Computer Science, where I am working with Professor <a href="http://www.mzahran.com/" target="_blank">Zahran </a> on developing a self learning AI support for architecture which optimises tunables in the HW at runtime for any application. Before this, I graduated from <a href="http://www.iitd.ac.in/" target="_blank">Indian Institute of Technology Delhi </a> in Electrical Engineering. Back in IIT, I worked with Prof.<a href="http://web.iitd.ac.in/~jayadeva/index.html" target="_blank"> Jayadeva </a> on various aspects of machine learning(ranking systems) and recommendation systems. My <a href="../pdfs/thesis.pdf">thesis</a> from IITD.
+<p>I did my graduate schooling at <a href="https://cs.nyu.edu" target="_blank"> NYU,</a> <a href="https://cims.nyu.edu" target="_blank">Courant School of Mathematical Sciences</a>, where I am pursued a Masters in Computer Science, working with Professor <a href="http://www.mzahran.com/" target="_blank">Zahran </a> on developing a self learning AI support for architecture which optimises tunables in the HW at runtime for any application. Read more about it <a href="https://arxiv.org/pdf/2004.13074v1.pdf">here</a> and <a href="https://arxiv.org/pdf/2004.13074v2.pdf">here</a>. <br/> <br/>
+Before this, I graduated from <a href="http://www.iitd.ac.in/" target="_blank">Indian Institute of Technology Delhi </a> in Electrical Engineering. Back in IIT, I worked with Prof.<a href="http://web.iitd.ac.in/~jayadeva/index.html" target="_blank"> Jayadeva </a> on various aspects of machine learning(ranking systems) and recommendation systems. My <a href="../pdfs/thesis.pdf">thesis</a> from IITD.
+
 
 <hr/> 
 <p> More information on my projects can be found on my <a href="https://github.com/AK101111/" target="_blank">GitHub Page</a>.
 
 <hr />
 
+My really old resume can be found <a href="../pdfs/arnavkansalresume.pdf">here</a> and the current version is available on request.<br/>
+
+<hr />
+
 <h3>My hobbies</h3>
 
-<p>I am learning to play an electric guitar and also like to cook in my spare time. I like to play soccer and enjoy running. 
+<p>
+I like to cook in my spare time. I am also learning to play an electric guitar. Currently I am listening to Tame Impala, Khruangbin, Jungle and a lot of new artists on KEXP. I like to play soccer and enjoy running.<br/> <br/>
+I love coffee. My love for coffee flourished in Manhattan, probably because of the many cute little coffee shops I used to frequent there. Here are some nice places to get <a href="../coffee.html" target="_blank">coffee</a> while in the big apple.
 <br/> <br/>
-During graduate school, I was living in Manhattan, NY where I found a new love for coffee and here are some nice places to get <a href="../coffee.html" target="_blank">coffee</a> while in the big apple.
-
-Also, included are some<a href="../brunch.html" target="_blank"> brunch </a> places I love!
+Also, included are some <a href="../brunch.html" target="_blank">brunch</a> places I love!
 <br/> <br/>
 I am always excited to know about the next generation video games and the latest gaming PCs that can be built to play them. I once successfully overclocked an Intel E8400 Dual Core to 4.0 Ghz from its base clock of 3.0 Ghz.
 <br/> <br/>
