@@ -6,7 +6,7 @@ summary:    Trying to understand DL using the information perspective.
 categories: DL
 ---
 <p align="center">
-	<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/it.jpg?raw=true" alt="Information Theory"/>
+	<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/it.jpg?raw=true" alt="Information Theory"/>
 </p>
 
 Despite the lack of strong theoretical bounds, Deep Neural Networks have been embarrassingly successful in various practical tasks in fields ranging from Computer Vision, Natural Language Processing, medicine, etc. There has been much work in understanding how these systems work and the community has started to view them not as black boxes.
@@ -67,7 +67,7 @@ $$ I(X;Y) \geq I(X;Z)$$
 
 ## DNNs form a Markov Chain
 <p align="center">
-	<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/nn.png?raw=true" alt="Encoder Decoder"/>
+	<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/nn.png?raw=true" alt="Encoder Decoder"/>
 </p>
 
 $$Y \rightarrow X \rightarrow X \rightarrow T_1 \rightarrow T_2 .. \rightarrow T_i \rightarrow ..  \rightarrow \hat{Y}$$
@@ -115,7 +115,7 @@ If we look at the last layer (the dots in orange) it is evident that they show a
 
 This behavior is explained by the author as a distinct two-stage process which involves:
 <p align="center">
-	<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/info_plane.jpg?raw=true" width="50%" height="50%" alt="Information Plane"/>
+	<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/info_plane.jpg?raw=true" width="50%" height="50%" alt="Information Plane"/>
 </p>
 
 1. **Fast ERM stage**
@@ -129,7 +129,7 @@ The discussion above is from the standpoint of the information plane. Another in
 
 <p align="center">
 	<figure>
-  <img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/usigma.png?raw=true" width="80%" height="80%" alt="mean and std of weights of a layer over epochs"/>
+  <img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/usigma.png?raw=true" width="80%" height="80%" alt="mean and std of weights of a layer over epochs"/>
   <figcaption>Layers gradients distribution during optimization. (Img. source Tishby and Schwartz-Ziv 2017 )</figcaption>
 </figure>
 
@@ -148,7 +148,7 @@ The authors have empirically shown using some experiments that there is computat
 
 <p align="center">
 	<figure>
-  <img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/hidden_layers.png?raw=true" width="80%" height="80%" alt="Computational benefit of hidden layers"/>
+  <img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/hidden_layers.png?raw=true" width="80%" height="80%" alt="Computational benefit of hidden layers"/>
   <figcaption>Illustrating the various benefits of adding hidden layers. (Img. source Tishby and Schwartz-Ziv 2017 )</figcaption>
 </figure>
 
@@ -163,7 +163,7 @@ Further, they plot the IB information curve (theoretical) and then mark the actu
 
 <p align="center">
 	<figure>
-  <img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/optimalib.png?raw=true" width="60%" height="60%" alt="Convergence of layers to the IB bound"/>
+  <img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/optimalib.png?raw=true" width="60%" height="60%" alt="Convergence of layers to the IB bound"/>
   <figcaption>Experiment showing the closeness of the DNN layers to the optimal IB bound. (Img. source Tishby and Schwartz-Ziv 2017 )</figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ Similarly, for partitions $$T$$ that are typical and are large enough,
 $$p(x_1, …, x_n \vert T) = 2^{- n H(X \vert T)}$$
 
 <p align="center">
-<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/Anda.png?raw=true" width="50%" height="50%" alt="Epsilon partition of the input variable"/>
+<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/Anda.png?raw=true" width="50%" height="50%" alt="Epsilon partition of the input variable"/>
 </p>
 
 According to the earlier generalization bounds, $$\epsilon^2 < \frac{\log \lvert H_{\epsilon} \rvert + \log 1 / \delta}{2m}$$ where $$\lvert H_{\epsilon} \rvert \approx \left(\frac{1}{\epsilon}\right)^d$$
@@ -250,7 +250,7 @@ Tishby et al had made use of the $$\tanh$$ (hyperbolic tangent) function as the 
 As the weights tend to increase during training, they are forced to concentrate into a smaller number of bins to which the authors attribute the reason for the compression phase as was observed by the original authors.
 
 <p align="center">
-<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/tanh.png?raw=true" width="50%" height="50%"/><img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/relu.png?raw=true" width="50%" height="50%"/>
+<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/tanh.png?raw=true" width="50%" height="50%"/><img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/relu.png?raw=true" width="50%" height="50%"/>
 </p>
 
 
@@ -261,7 +261,7 @@ The authors justify their observations by noting that $$ReLU$$ is a single satur
 The authors also provide an exact mathematical proof of how the entropy reduces for larger weights in the case of $$\tanh$$ nonlinearity but not in the case of the $$ReLU$$ non-linearity through a simple example consisting of a single hidden layer with a single neuron with a single input and output.
 
 <p align="center">
-<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/chotunn.png?raw=true" width="50%" height="50%" alt="Epsilon partition of the input variable"/>
+<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/chotunn.png?raw=true" width="50%" height="50%" alt="Epsilon partition of the input variable"/>
 </p>
 
 This network has a single input $$X$$ and output $$Y$$. The hidden layer $$h$$ is binned yielding a new discrete variable $$T = bin(h)$$. Here, the mutual information between $$T$$ and $$X$$ is calculated as
@@ -276,7 +276,7 @@ The following graphs show entropy of $$T$$ or its mutual information with input 
 
 <div id="ggr" /> 
 <p align="center">
-<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/tanh4.png?raw=true" width="50%" height="50%"/><img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/relu4.png?raw=true" width="50%" height="50%"/>
+<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/tanh4.png?raw=true" width="50%" height="50%"/><img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/relu4.png?raw=true" width="50%" height="50%"/>
 </p>
 
 The above graphs show that the mutual information with the input decreases as a function of the weights after increasing first for the $$\tanh$$ non-linearity but increases monotonically for the $$ReLU$$ non-linearity.
@@ -297,7 +297,7 @@ The authors use simple linear networks trained in a student-teacher setting wher
 
 <p align="center">
 	<figure>
-  <img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/claim2.png?raw=true" width="80%" height="80%" alt="Claim2"/>
+  <img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/claim2.png?raw=true" width="80%" height="80%" alt="Claim2"/>
   <figcaption>Challenging the causality between generalization and compression. (Img. source Saxe et al. 2018)</figcaption>
 </figure>
 
@@ -316,7 +316,7 @@ The authors note that the compression phase, even when it exists, does not arise
 
 <p align="center">
 	<figure>
-  <img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/claim3.png?raw=true" width="100%" height="100%" alt="Claim2"/>
+  <img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/claim3.png?raw=true" width="100%" height="100%" alt="Claim2"/>
   <figcaption>Is compression attributable to SGD? (Img. source Saxe et al. 2018)</figcaption>
 </figure>
 
@@ -340,7 +340,7 @@ The number of data points sampled using the above scheme was set to `4096` and t
 
 The network was trained using cross entropy loss with an SGD solver using a batch size of `16`.
 
-We have only tested these experiments on toy/small data sets but firmly believe that these experiments can be extended to real-life data sets and models and can establish at least empirically these two arguments. The entire code for this experiment is available at [github](https://github.com/AK101111/AK101111.github.io/blob/master/_ipython/InfoDnnExperiments.ipynb).  
+We have only tested these experiments on toy/small data sets but firmly believe that these experiments can be extended to real-life data sets and models and can establish at least empirically these two arguments. The entire code for this experiment is available at [github](https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/_ipython/InfoDnnExperiments.ipynb).  
 
 <br/>
 
@@ -358,7 +358,7 @@ The number of partitions achieved was `6` and the total input data points was `4
 We found that the partitions were far from homogeneous among class labels, in fact, the distributions of our findings are plotted below.
 
 <p align="center">
-<img src="https://github.com/AK101111/AK101111.github.io/blob/master/images/label.png?raw=true"/>
+<img src="https://github.com/arnav-kansal/arnav-kansal.github.io/blob/master/images/label.png?raw=true"/>
 </p>  
 
 <br/>

@@ -4,7 +4,7 @@ email:       arnavkansal@gmail.com
 author:      Arnav Kansal
 description: "ML, High performance systems enthusiast"
 baseurl:     ""
-url:         "http://AK101111.github.io/index.html"
+url:         "http://arnav-kansal.github.io/index.html"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -50,7 +50,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: AK101111
+github_username: arnav-kansal
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
